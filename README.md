@@ -70,14 +70,27 @@ Congratulations! You guessed the correct number! Your score is 80.
 ## Project Structure
 
 ```text
-.
-├── .vscode/
+NUMBER-GUESSING-GAME/
+│
 ├── solution_a/
 │   └── main.py
-├── .gitignore
-├── LICENSE
+│
+├── solution_b/
+│   ├── src/
+│       ├── game_logic/
+│       │   ├── hint_generator.py
+│       │   ├── number_generator.py
+│       │   └── scorer.py
+│       │
+│       ├── utils/
+│       │   └── input_validator.py
+│       │
+│       └── main.py
+│    
+├── requirements.txt
 ├── README.md
-└── requirements.txt
+├── LICENSE
+└── .gitignore
 ```
 
 ---
