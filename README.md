@@ -47,7 +47,7 @@ No external libraries are required.
 Clone the repository or download the file, then run:
 
 ```bash
-python main.py
+python solution_a/main.py
 ```
 
 ---
